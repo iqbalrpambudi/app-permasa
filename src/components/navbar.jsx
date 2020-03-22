@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import { Menu, Segment, Container } from "semantic-ui-react";
-import Icon from "../assets/favicon.ico";
+import { Menu, Segment, Container, Image, Icon } from "semantic-ui-react";
+import Ikon from "../assets/brand.png";
 
 class Navbar extends Component {
-  constructor(){
-    super()
+  constructor() {
+    super();
     this.state = { activeItem: "home" };
   }
 
@@ -15,40 +15,36 @@ class Navbar extends Component {
     const { activeItem } = this.state;
 
     return (
-      <Segment>
-        <Menu secondary>
-          <Container>
-            <Menu.Item
-              name="icon"
-              icon={Icon}
-              active={activeItem === "icon"}
-              onClick={this.handleItemClick}
-              position="left"
-            />
+      <Segment style={{marginBottom:0}}>
+        <Container>
+          <Menu secondary>
+            <Menu.Item fitted>
+              <Image src={Ikon}/>
+            </Menu.Item>
             <Menu.Item
               name="home"
               as={Link}
               to="/"
+              position="right"
               active={activeItem === "home"}
               onClick={this.handleItemClick}
-              position="right"
             />
             <Menu.Item
-              name="alumni"
+              name="Alumni"
               as={Link}
               to="/alumni"
               active={activeItem === "alumni"}
               onClick={this.handleItemClick}
             />
             <Menu.Item
-              name="grafik"
+              name="Grafik"
               as={Link}
               to="/grafik"
               active={activeItem === "grafik"}
               onClick={this.handleItemClick}
             />
-          </Container>
-        </Menu>
+          </Menu>
+        </Container>
       </Segment>
     );
   }

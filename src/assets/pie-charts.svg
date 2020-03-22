@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 101 101" width="101" height="101">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffd086 } 
+		.shp1 { fill: #ed6571 } 
+		.shp2 { fill: #91cbd7 } 
+		.shp3 { fill: #4e9bb9 } 
+		.shp4 { fill: #68607c } 
+	</style>
+	<path id="Layer" class="shp0" d="M28.2 40.2C31.87 32.4 39.81 27 49 27L49 41L49 50L26.8 55.98L26.79 55.98C26.27 54.07 26 52.07 26 50C26 46.49 26.79 43.17 28.2 40.2Z" />
+	<path id="Layer" class="shp1" d="M35.43 68.57C31.26 65.52 28.16 61.1 26.8 55.98L49 50L49 73C43.92 73 39.23 71.35 35.43 68.57Z" />
+	<path id="Layer" class="shp2" d="M61.98 68.98C58.29 71.52 53.82 73 49 73L49 50L72 50C72 57.88 68.03 64.84 61.98 68.98L61.98 68.98Z" />
+	<path id="Layer" class="shp3" d="M77 29L77 50L73 50L73 38L73 29L77 29Z" />
+	<path id="Layer" class="shp2" d="M73 38L73 50L72 50L69 50L69 38L73 38Z" />
+	<path id="Layer" class="shp3" d="M69 38L69 50L65 50L65 33L69 33L69 38Z" />
+	<path id="Layer" class="shp2" d="M65 33L65 50L61 50L61 34L61 28L65 28L65 33Z" />
+	<path id="Layer" class="shp3" d="M61 34L61 50L57 50L57 38L57 34L61 34Z" />
+	<path id="Layer" class="shp3" d="M49 41L53 41L53 50L49 50L49 41Z" />
+	<path id="Layer" class="shp2" d="M57 38L57 50L53 50L53 41L53 38L57 38Z" />
+	<g id="Layer">
+		<path id="Layer" class="shp4" d="M49 49L79 49L79 51L49 51L49 49Z" />
+		<path id="Layer" class="shp4" d="M69 70L79 70L79 72L69 72L69 70Z" />
+		<path id="Layer" class="shp4" d="M69 74L79 74L79 76L69 76L69 74Z" />
+		<path id="Layer" class="shp4" d="M69 78L79 78L79 80L69 80L69 78Z" />
+		<path id="Layer" class="shp4" d="M19 70L29 70L29 72L19 72L19 70Z" />
+		<path id="Layer" class="shp4" d="M19 74L29 74L29 76L19 76L19 74Z" />
+		<path id="Layer" class="shp4" d="M19 78L29 78L29 80L19 80L19 78Z" />
+		<path id="Layer" class="shp4" d="M67 72L63.59 72L54.29 62.71L55.71 61.29L64.41 70L67 70L67 72Z" />
+		<path id="Layer" class="shp4" d="M19 20L31 20L31 22L19 22L19 20Z" />
+		<path id="Layer" class="shp4" d="M19 24L31 24L31 26L19 26L19 24Z" />
+		<path id="Layer" class="shp4" d="M19 28L31 28L31 30L19 30L19 28Z" />
+		<path id="Layer" class="shp4" d="M33.29 46.71L23 36.41L23 32L25 32L25 35.59L34.71 45.29L33.29 46.71Z" />
+		<path id="Layer" class="shp4" d="M33.41 72L31 72L31 70L32.59 70L39.29 63.29L40.71 64.71L33.41 72Z" />
+	</g>
+	<path id="Layer" class="shp0" d="M53.71 31.71L52.29 30.29L62.94 19.65L69.11 24.79L77.52 20.13L78.48 21.87L68.89 27.21L63.06 22.35L53.71 31.71Z" />
+</svg>

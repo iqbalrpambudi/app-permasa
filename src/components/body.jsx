@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
 
-import Homepage from "../page/homepage";
+import Homepage from "../page/homepage/index";
 import Alumni from "../page/alumni";
 import Grafik from "../page/grafik";
 
